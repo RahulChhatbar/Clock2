@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    font-size: 25px;
+}
+body {
+  background: linear-gradient(to bottom right, hsl(199, 90%, 25%), hsl(286, 100%, 50%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  overflow: auto;
+}
+a{
+  font-size: 32px;
+}
+.button {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+#reload{
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.div {   
+  padding: 0;
+  border: 0;
+  text-align: center;
+  color: rgb(255, 255, 0);
+  font-size: 100px;
+}
